@@ -1,0 +1,40 @@
+@import "tailwindcss";
+.heading{
+    margin: 20px auto;
+    color: #540404;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+.form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 12px;
+  border: 3px solid #1c0460;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.name{
+   @apply border-4 border-gray-300 rounded-md p-4;
+   font-weight: 700;
+   color:#2e01f5
+}
+.email{
+  @apply border-4 border-gray-300 rounded-md p-2;
+  font-weight: 700;
+  color:#2e01f5
+}
+.password{
+  @apply border-4 border-gray-300 rounded-md p-2;
+  font-weight: 700;
+  color:#2e01f5
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
