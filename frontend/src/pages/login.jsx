@@ -16,7 +16,7 @@ import image from '../assets/images.jpg'
     
     <form className="form" onClick={formsubmit}>
     NAME  : <input type="text" className='name' required placeholder="Enter your Name here" value={name} onChange={(e)=>setName(e.target.value)}/><br></br>
-    EMAIL : <input type="text" className='email' required placeholder="Enter your Email here" value={email} onChange={(e)=>setEmail(e.target.value)}/><br></br>
+    EMAIL : <input type="email" className='email' required placeholder="Enter your Email here" value={email} onChange={(e)=>setEmail(e.target.value)}/><br></br>
     PASSWORD : <input type="password" className='password' required placeholder="Enter your Password here" value={password} onChange={(e)=>setPassword(e.target.value)}/><br></br>
     <button type="SUBMIT" className='bg-amber-400'>Submit</button>
     </form>
