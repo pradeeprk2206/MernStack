@@ -5,7 +5,7 @@ const location=useLocation();
   const[userdata,setuserdata]=useState("")
   function displaydate(){
     setuserdata(location.state);
-    console.log(userdata)
+    console.log(location.state)
   }
   return (<div><button onClick={displaydate}>Submit</button></div>)
 }

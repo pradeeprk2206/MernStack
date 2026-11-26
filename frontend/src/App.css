@@ -10,30 +10,29 @@
 .form {
   max-width: 400px;
   margin: 40px auto;
-  padding: 12px;
+  padding: 36px;
   border: 3px solid #1c0460;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 5px;
 }
 .name{
-   border: 2px solid #00040a;
+   @apply border-2 border-b-black rounded-md p-2;
    text-align: center;
-   font-weight: 700;
-   color:#272628
+}
+.age{
+   @apply border-2 border-b-black rounded-md p-2;
+   text-align: center;
+   
 }
 .email{
-  border: 2px solid #010a17;
-  text-align: center;
-  font-weight: 700;
-  color:#272628
+   @apply border-2 border-b-black rounded-md p-2;
+   text-align: center;
 }
 .password{
-  border: 2px solid #01050b;
-  text-align: center;
-  font-weight: 700;
-  color:#272628
+  @apply border-2 border-b-black rounded-md p-2;
+   text-align: center;
 }
 
 .image {
