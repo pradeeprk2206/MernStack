@@ -9,7 +9,7 @@ function Register(){
     function onSubmit1(data){
         console.log(data)
         alert("register Success")
-        navigate("/")
+        navigate("/",{state:data})
     }
     return(
         <>
